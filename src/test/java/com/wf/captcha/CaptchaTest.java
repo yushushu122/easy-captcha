@@ -1,9 +1,7 @@
 package com.wf.captcha;
 
-import org.junit.Test;
 
-import java.io.File;
-import java.io.FileOutputStream;
+import org.junit.jupiter.api.Test;
 
 /**
  * 测试类
