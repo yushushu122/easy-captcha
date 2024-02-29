@@ -55,7 +55,7 @@
 ### 3.1.gradle方式的引入
 ```text
 dependencies {
-    compile 'com.github.whvcse:easy-captcha:1.6.2'
+    compile 'com.github.luckywh0:easy-captcha:2.0.0'
 }
 ```
 
@@ -63,23 +63,23 @@ dependencies {
 ```xml
 <dependencies>
    <dependency>
-      <groupId>com.github.whvcse</groupId>
+      <groupId>com.github.luckywh0</groupId>
       <artifactId>easy-captcha</artifactId>
-      <version>1.6.2</version>
+      <version>2.0.0</version>
    </dependency>
 </dependencies>
 ```
 
 ### 3.3.jar包下载
-[easy-captcha-1.6.2.jar](https://gitee.com/whvse/EasyCaptcha/releases)
+[easy-captcha-2.0.0.jar](https://gitee.com/luckywh0/easy-captcha/releases)
 
 maven导入jar包，在项目根目录创建`libs`文件夹，然后pom.xml添加如下：
 ```
 <dependency>
-  <groupId>com.github.whvcse</groupId>
+  <groupId>com.github.luckywh0</groupId>
   <artifactId>easy-captcha</artifactId>
-  <version>1.6.1</version>
-  <systemPath>${basedir}/libs/easy-captcha-1.6.2.jar</systemPath>
+  <version>2.0.0</version>
+  <systemPath>${basedir}/libs/easy-captcha-2.0.0.jar</systemPath>
 </dependency>
 ```
 
