@@ -1,10 +1,13 @@
 # EasyCaptcha
 
-![MavenCentral](https://img.shields.io/maven-central/v/com.github.whvcse/easy-captcha?style=flat-square)
+![MavenCentral](https://img.shields.io/maven-central/v/io.github.luckywh0/easy-captcha?style=flat-square)
 ![Hex.pm](https://img.shields.io/hexpm/l/plug.svg?style=flat-square)
 
 
 ## 1.简介
+EasyCaptcha 镜像仓库，原始地址：https://github.com/whvcse/EasyCaptcha
+修改 javax servlet 为 jakarta servlet
+JDK版本最低 17
 &emsp;Java图形验证码，支持gif、中文、算术等类型，可用于Java Web、JavaSE等项目。
 
 ---
@@ -55,7 +58,7 @@
 ### 3.1.gradle方式的引入
 ```text
 dependencies {
-    compile 'com.github.luckywh0:easy-captcha:2.0.0'
+    compile 'io.github.luckywh0:easy-captcha:2.0.0'
 }
 ```
 
@@ -63,7 +66,7 @@ dependencies {
 ```xml
 <dependencies>
    <dependency>
-      <groupId>com.github.luckywh0</groupId>
+      <groupId>io.github.luckywh0</groupId>
       <artifactId>easy-captcha</artifactId>
       <version>2.0.0</version>
    </dependency>
@@ -76,7 +79,7 @@ dependencies {
 maven导入jar包，在项目根目录创建`libs`文件夹，然后pom.xml添加如下：
 ```
 <dependency>
-  <groupId>com.github.luckywh0</groupId>
+  <groupId>io.github.luckywh0</groupId>
   <artifactId>easy-captcha</artifactId>
   <version>2.0.0</version>
   <systemPath>${basedir}/libs/easy-captcha-2.0.0.jar</systemPath>
